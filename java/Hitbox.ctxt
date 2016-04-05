@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Hitbox
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hitbox\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y
+comment1.target=Hitbox(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ init()
+comment4.params=
+comment4.target=boolean\ checkIntro()
+comment5.params=
+comment5.target=boolean\ wasHit()
+comment6.params=
+comment6.target=boolean\ canMoveLeft()
+comment7.params=
+comment7.target=boolean\ canMoveRight()
+comment8.params=
+comment8.target=boolean\ inAir()
+comment9.params=x\ y
+comment9.target=void\ adjustHitbox(int,\ int)
+numComments=10

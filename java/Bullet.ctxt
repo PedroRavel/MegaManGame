@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Bullet\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y
+comment1.target=Bullet(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=int\ getDamage()
+comment4.params=damage
+comment4.target=void\ setDamage(int)
+comment5.params=dir
+comment5.target=void\ shoots(boolean)
+comment6.params=
+comment6.target=boolean\ checkForCollisions()
+comment7.params=
+comment7.target=void\ removeBullet()
+comment8.params=name
+comment8.target=java.lang.String\ getImages(java.lang.String)
+numComments=9

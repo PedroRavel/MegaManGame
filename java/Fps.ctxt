@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fps
+comment0.text=\r\n\ CLASS\:\ Fps\r\n\ AUTHOR\:\ danpost\ (greenfoot.org\ username)\r\n\ VERSION\:\ January\ 14,\ 2014\r\n\ \r\n\ DESCRIPTION\:\ An\ actor\ class\ that\ show\ how\ many\ frames\ the\ scenario\ is\ running\ at\ the\ current\ speed.\r\n\ \r\n\ INSTRUCTIONS\:\ As\ with\ any\ actor,\ create\ and\ add\ into\ world\ after\ including\ the\ class\ in\ your\ project.\r\n\ \r\n\ CONTROLS\:\r\n\ \r\n\ *\ Left\ click\ on\ actor\ reduces\ speed\ of\ scenario\r\n\ *\ Right\ click\ on\ actor\ increases\ speed\ of\ scenario\r\n\ *\ Hovering\ mouse\ over\ actor\ will\ have\ it\ display\ current\ speed\ setting\r\n\ \r\n\ NOTE\:\ Using\ the\ speed\ slider\ in\ the\ application\ will\ result\ in\ a\ false\ speed\ display\ until\r\n\ the\ actor\ is\ clicked\ on.\r\n
+comment1.params=
+comment1.target=Fps()
+comment1.text=\r\n\ Sets\ the\ initial\ scenario\ speed\ and\ creates\ the\ initial\ image\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Checks\ for\ mouse\ clicks\ and\ tracks\ frames\ per\ second\ of\ scenario\r\n
+comment3.params=
+comment3.target=void\ updateImage()
+comment3.text=\r\n\ Updates\ the\ image\r\n
+numComments=4

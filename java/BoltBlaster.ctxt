@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BoltBlaster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BoltBlaster\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=BoltBlaster()
+comment10.params=
+comment10.target=void\ chooseAction()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ destroyed()
+comment4.params=
+comment4.target=void\ checkHit()
+comment5.params=
+comment5.target=void\ deathAnimation()
+comment6.params=
+comment6.target=void\ handleList()
+comment7.params=
+comment7.target=void\ blast()
+comment8.params=
+comment8.target=void\ idle()
+comment9.params=
+comment9.target=void\ shoot()
+numComments=11

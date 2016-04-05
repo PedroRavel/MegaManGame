@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=NightmareZero
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NightmareZero\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=width\ height
+comment1.target=NightmareZero(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ chooseAction()
+comment4.params=
+comment4.target=void\ checkPose()
+comment5.params=
+comment5.target=void\ changePose()
+comment6.params=
+comment6.target=void\ switchAction()
+comment7.params=
+comment7.target=void\ chooseImage()
+comment7.text=\r\n\ \ \ \ public\ void\ chooseImage(){\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ if(action\ \=\=\ 0\ ||\ action\ \=\=\ 1)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ numOfFrames\ \=\ 5;\r\n\ \ \ \ \ \ \ \ \ \ \ \ delay\ \=\ 10;\r\n\ \ \ \ \ \ \ \ \ \ \ \ setImage(getImages(poses[action]));\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ numOfFrames\ \=\ 15;\r\n\ \ \ \ \ \ \ \ \ \ \ \ delay\ \=\ 4;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ if(frame\ <\ numOfFrames){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(timer\ >\=\ delay){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ frame++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer\ \=\ 0;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ setImage("NightmareZero_"\ +\ poses[action]\ +\ "_"\ +\ frame\ +\ ".png");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \r\n\ \ \ \ }\r\n
+comment8.params=name
+comment8.target=java.lang.String\ getImages(java.lang.String)
+numComments=9
